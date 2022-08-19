@@ -1,5 +1,3 @@
-
-
 const smoothScroll = (
     target: HTMLElement | string,
     options?: object
