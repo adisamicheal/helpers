@@ -1,3 +1,5 @@
+// array of countries ans some details around the world 
+
 export default [
 	{
 		country: 'Afghanistan',

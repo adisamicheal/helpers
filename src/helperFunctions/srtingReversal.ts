@@ -1,9 +1,12 @@
 /**
  * @param {string}
- * @return {string}
  */
 
-const srtingReversal = (val: string) => {
+interface value {
+    val: string
+} 
+
+const srtingReversal = ({val}: value) => {
     if (typeof val !== 'string') {
         return;
     }

@@ -1,9 +1,12 @@
 /**
  * @param {string}
- * @return {number}
  */
 
-const romanToInteger = (roman: string): void => {
+interface value {
+    roman: string
+} 
+
+const romanToInteger = ({roman}: value): void => {
     const values = {
         I: 1,
         V: 5,
